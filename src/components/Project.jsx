@@ -12,7 +12,7 @@ function Portfolio() {
 
   return (<>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="../../assets/readmess.png" />
+      <Card.Img variant="top" src="https://github.com/pkykev/reactport/blob/main/src/assets/readmess.png" />
       <Card.Body>
         <Card.Title>ReadMe Generator</Card.Title>
         <Card.Text>
