@@ -1,14 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import AboutMe from './components/Aboutme';
+import Contact from './components/contact';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [location, setLocation] = useState('AboutMe')
 
   return (
     <>
-      <h1>YOOOOOOOO</h1>
+      <Header location={location} setLocation={setLocation}/>
+      <h1>{location}</h1>
+      {location === 'AboutMe' && <AboutMe></AboutMe>}
+      {location === 'Contact' && <Contact></Contact>}
+
+
+      <Footer/>
     </>
   )
 }
