@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 // later this can be reduced to one card and interated over
 // center these cards and keep them 30% and make them 2x3 in stead of 1x6 later
+// add lots of styling
 function Portfolio() {
 
 
@@ -12,7 +13,7 @@ function Portfolio() {
 
   return (<>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/readmegen.png" />
+      <Card.Img variant="top" src="./reactport/src/assets/readmess.png" />
       <Card.Body>
         <Card.Title>ReadMe Generator</Card.Title>
         <Card.Text>
@@ -22,7 +23,7 @@ function Portfolio() {
       </Card.Body>
     </Card>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/bitmoji.png" />
+      <Card.Img variant="top" src="./reactport/src/assets/bitmoji.png" />
       <Card.Body>
         <Card.Title>Coding With Friends</Card.Title>
         <Card.Text>
@@ -32,7 +33,7 @@ function Portfolio() {
       </Card.Body>
     </Card>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/weatherappss.png" />
+      <Card.Img variant="top" src="./reactport/src/assets/weatherappss.png" />
       <Card.Body>
         <Card.Title>Weather Dashboard</Card.Title>
         <Card.Text>
@@ -43,7 +44,7 @@ function Portfolio() {
     </Card>
 
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/shipmate.png" />
+      <Card.Img variant="top" src="./reactport/src/assets/shipmate.png" />
       <Card.Body>
         <Card.Title>Ship Mate</Card.Title>
         <Card.Text>
@@ -54,7 +55,7 @@ function Portfolio() {
     </Card>
 
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/sudoku.png" />
+      <Card.Img variant="top" src="./reactport/src/assets/sudoku.png" />
       <Card.Body>
         <Card.Title>Sudoku Game</Card.Title>
         <Card.Text>
@@ -66,7 +67,7 @@ function Portfolio() {
 
 
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/logo.svg" />
+      <Card.Img variant="top" src="./reactport/src/assets/logo.svg" />
       <Card.Body>
         <Card.Title>SVG Logo Maker</Card.Title>
         <Card.Text>
