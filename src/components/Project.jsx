@@ -54,7 +54,7 @@ function Portfolio() {
     </Card>
 
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="src/assets/Screenshot-Sudoku.png" />
+      <Card.Img variant="top" src="src/assets/sudoku.png" />
       <Card.Body>
         <Card.Title>Sudoku Game</Card.Title>
         <Card.Text>
