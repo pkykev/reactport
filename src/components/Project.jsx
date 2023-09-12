@@ -13,7 +13,7 @@ function Portfolio() {
 
   return (<>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="./src/assets/readmess.png" />
+      <Card.Img variant="top" src="assets/readmess.png" />
       <Card.Body>
         <Card.Title>ReadMe Generator</Card.Title>
         <Card.Text>
@@ -23,7 +23,7 @@ function Portfolio() {
       </Card.Body>
     </Card>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="./src/assets/bitmoji.png" />
+      <Card.Img variant="top" src="./assets/bitmoji.png" />
       <Card.Body>
         <Card.Title>Coding With Friends</Card.Title>
         <Card.Text>
@@ -33,7 +33,7 @@ function Portfolio() {
       </Card.Body>
     </Card>
     <Card style={{ width: '30%' }}>
-      <Card.Img variant="top" src="./reactport/src/assets/weatherappss.png" />
+      <Card.Img variant="top" src="/assets/weatherappss.png" />
       <Card.Body>
         <Card.Title>Weather Dashboard</Card.Title>
         <Card.Text>
